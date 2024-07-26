@@ -51,7 +51,7 @@ async function createServer() {
       vite.ssrFixStacktrace(e)
       console.log(e.stack)
       res.status(500).end(e.stack)
-    }
+    } 
   })
 
   app.listen(5173, () => {
