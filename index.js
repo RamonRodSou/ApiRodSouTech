@@ -20,6 +20,10 @@ async function createServer() {
 
   app.use(vite.middlewares)
 
+  app.get("/", (req, res) => {
+    return res.json("Deu Certo")
+  })
+
   app.post('/send-message', async (req, res) => {
     const { nome, email, telefone, servico, data } = req.body
 
