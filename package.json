@@ -1,0 +1,26 @@
+{
+  "name": "rodsoutech-api",
+  "version": "1.0.0",
+  "description": "API for Rodsoutech",
+  "main": "index.js",
+  "type": "module",
+  "engines": {
+    "node": "20.x"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node index.js",
+    "dev": "js-node index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "axios": "^1.7.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "ts-node": "^10.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
